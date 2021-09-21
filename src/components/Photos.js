@@ -23,7 +23,7 @@ export default function Photos() {
 
     return (
      
-     <div>
+     <div className="container">
           <img src= {photoData.url} />
         <div>
             <h2>{photoData.title}</h2>
