@@ -1,4 +1,4 @@
-import React, from 'react';
+import React from 'react';
 import {BrowserRouter, Route}  from 'react-router-dom';
 import Photos from "./components/Photos"
 import './App.css';
