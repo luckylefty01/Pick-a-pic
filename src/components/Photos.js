@@ -24,7 +24,7 @@ export default function Photos() {
     return (
      
      <div className="container">
-          <img src= {photoData.url} />
+          <img src= {photoData.url} alt={""} />
         <div>
             <h2>{photoData.title}</h2>
             <h4>{photoData.date}</h4>
